@@ -18,15 +18,16 @@
 
 # 3. new button click
 ---------------
-<img src="https://user-images.githubusercontent.com/77331459/190469729-6854ea9c-1159-417d-84b0-c1dc713c41de.png" width="500" height="500" align="center">
-<!-- ![KakaoTalk_20220915_225616387](https://user-images.githubusercontent.com/77331459/190469729-6854ea9c-1159-417d-84b0-c1dc713c41de.png)<br> -->
+<img src="https://user-images.githubusercontent.com/77331459/190469729-6854ea9c-1159-417d-84b0-c1dc713c41de.png" width="500" height="600"><br>
 #### 프로젝트 이름<br>
 ####    - public / pricate<br>
 #### 전체공개 혹은 비공개<br>
 #### 전체공개 모드여야 코드를 남들이 볼 수 있음<br>
 ####    create repository<br>
-![KakaoTalk_20220915_225632855](https://user-images.githubusercontent.com/77331459/190469732-148a4b97-ac82-4fb2-8614-f771ff59e270.png)<br>
-![KakaoTalk_20220915_225825808](https://user-images.githubusercontent.com/77331459/190469735-496be76e-1c17-4817-9a56-f851710ac9bb.png)<br>
+<img src="https://user-images.githubusercontent.com/77331459/190469732-148a4b97-ac82-4fb2-8614-f771ff59e270.png" width="1000" height="800"><br>
+<!-- ![KakaoTalk_20220915_225632855](https://user-images.githubusercontent.com/77331459/190469732-148a4b97-ac82-4fb2-8614-f771ff59e270.png)<br> -->
+<img src="https://user-images.githubusercontent.com/77331459/190469735-496be76e-1c17-4817-9a56-f851710ac9bb.png" width="1000" height="500"><br>
+<!-- ![KakaoTalk_20220915_225825808](https://user-images.githubusercontent.com/77331459/190469735-496be76e-1c17-4817-9a56-f851710ac9bb.png)<br> -->
 ##### (github는 소스코드를 올리는 어떤 공간)<br>
 ##### (소스코드를 내 컴퓨터에서 github에 올려주는 역할이 git)<br>
 # 4. git download 
