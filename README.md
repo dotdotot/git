@@ -84,14 +84,14 @@
 #### !!(권한주는거 잊어먹지말기)!!
 #### 회사에 신입이 들어와서 회사에서 기존에 사용하고있던 코드를 모두 pull해야 합니다.
 #### 회사에서 배포한 github 주소로 접속해서 git주소를 복사
-![KakaoTalk_20220916_000758257](https://user-images.githubusercontent.com/77331459/190469723-1e00355e-8329-4244-a8cd-d7ed054610b6.png)<br>
+!(https://user-images.githubusercontent.com/77331459/190469723-1e00355e-8329-4244-a8cd-d7ed054610b6.png)<br>
 
 ####    git clone https://github.com/dotdotot/git.git
 ####    git clone https://github.com/dotdotot/git.git freshmen
 #### freshman 폴더 이름을 써주지 않으면 자동으로 프로젝트 이름의 폴더로 들어간다.
 
 #### github에 들어있는 파일들이 모두 옮겨진 모습
-![KakaoTalk_20220916_023033482](https://user-images.githubusercontent.com/77331459/190471827-9a85e5a1-6f95-41a1-9d44-736cc23815e0.png)<br>
+!(https://user-images.githubusercontent.com/77331459/190471827-9a85e5a1-6f95-41a1-9d44-736cc23815e0.png)<br>
 
 #### 상사가 신입에게 어떠한 작업을 요구해서 작업을 진행
 #### 작업을 완료했으면 기존 소스코드와 합쳐야한다.
@@ -100,7 +100,7 @@
 #### !!git push origin main!!을 하면 정말 욕을 먹는다.
 #### 왜냐 main에 있는 것들은 회사의 최종 결과물 신입이 무슨 권리로 본인이 작업한
 #### 소스코드를 어떻게 올림?(에러가 엄청 많음)
-![KakaoTalk_20220916_023033683](https://user-images.githubusercontent.com/77331459/190471834-0d9564b5-63f3-4ce1-be02-549d1a5e7f97.png)<br>
+!(https://user-images.githubusercontent.com/77331459/190471834-0d9564b5-63f3-4ce1-be02-549d1a5e7f97.png)<br>
 
 
 #### 신입사원은 메인이라는 최종 브렌치에 넣지 못하고 
@@ -110,14 +110,14 @@
 #### 해당 공간을 아무리 망쳐도 최종 프로젝트에는 어떠한 영향도 미치지 않음
 
 ####    git push origin freshmen
-![KakaoTalk_20220916_023033787](https://user-images.githubusercontent.com/77331459/190471836-857260a6-51fe-45d4-913b-be6326544b7e.png)<br>
+!(https://user-images.githubusercontent.com/77331459/190471836-857260a6-51fe-45d4-913b-be6326544b7e.png)<br>
 
 #### 브런치가 새로 생긴걸 확인가능
-![KakaoTalk_20220916_011150601](https://user-images.githubusercontent.com/77331459/190469727-0e85b0aa-c829-48b7-aa9d-d2551560f4c9.png)<br>
+!(https://user-images.githubusercontent.com/77331459/190469727-0e85b0aa-c829-48b7-aa9d-d2551560f4c9.png)<br>
 
 #### 신입 사원이 github 웹 사이트로 들어가보면 못보면 새로운게 발견
 #### freshmen이라는 사람이 소스코드를 freshmen에 올렸다는 의미
-![KakaoTalk_20220916_023033595](https://user-images.githubusercontent.com/77331459/190471833-2ada8482-c6fe-4350-8981-4c0886125e38.png)<br>
+!(https://user-images.githubusercontent.com/77331459/190471833-2ada8482-c6fe-4350-8981-4c0886125e38.png)<br>
 
 #### 그러면 full requests 공간에 freshmen이 수정한 내용이 올라옴.
 #### 즉, 최종 프로젝트(main)에 해당 내용을 반영시킬 수 있게 허락해달라는 의미
