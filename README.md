@@ -18,12 +18,13 @@
 
 # 3. new button click
 ---------------
-![KakaoTalk_20220915_231529633](https://user-images.githubusercontent.com/77331459/190469702-7dc25193-b05d-4dbb-903b-51d9ae2e5c0b.png)
+![KakaoTalk_20220915_225616387](https://user-images.githubusercontent.com/77331459/190469729-6854ea9c-1159-417d-84b0-c1dc713c41de.png)
 ### 프로젝트 이름<br>
 ### - public / pricate<br>
 ### 전체공개 혹은 비공개<br>
 ### 전체공개 모드여야 코드를 남들이 볼 수 있음<br>
 ### create repository<br>
+![KakaoTalk_20220915_225632855](https://user-images.githubusercontent.com/77331459/190469732-148a4b97-ac82-4fb2-8614-f771ff59e270.png)
 #### (github는 소스코드를 올리는 어떤 공간)<br>
 #### (소스코드를 내 컴퓨터에서 github에 올려주는 역할이 git)<br>
 # 4. git download 
