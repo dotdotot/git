@@ -24,10 +24,8 @@
 #### 전체공개 혹은 비공개<br>
 #### 전체공개 모드여야 코드를 남들이 볼 수 있음<br>
 ####    create repository<br>
-<img src="https://user-images.githubusercontent.com/77331459/190469732-148a4b97-ac82-4fb2-8614-f771ff59e270.png" width="1000" height="800"><br>
-<!-- ![KakaoTalk_20220915_225632855](https://user-images.githubusercontent.com/77331459/190469732-148a4b97-ac82-4fb2-8614-f771ff59e270.png)<br> -->
-<img src="https://user-images.githubusercontent.com/77331459/190469735-496be76e-1c17-4817-9a56-f851710ac9bb.png" width="1000" height="500"><br>
-<!-- ![KakaoTalk_20220915_225825808](https://user-images.githubusercontent.com/77331459/190469735-496be76e-1c17-4817-9a56-f851710ac9bb.png)<br> -->
+<img src="https://user-images.githubusercontent.com/77331459/190469732-148a4b97-ac82-4fb2-8614-f771ff59e270.png" width="700" height="600"><br>
+<img src="https://user-images.githubusercontent.com/77331459/190469735-496be76e-1c17-4817-9a56-f851710ac9bb.png" width="700" height="300"><br>
 ##### (github는 소스코드를 올리는 어떤 공간)<br>
 ##### (소스코드를 내 컴퓨터에서 github에 올려주는 역할이 git)<br>
 # 4. git download 
@@ -37,14 +35,14 @@
 #### all next
 # 5. git bash open
 ---------------
-![KakaoTalk_20220915_230108546](https://user-images.githubusercontent.com/77331459/190469737-59fec3b5-10c2-4970-a0c0-c047aa452732.png)<br>
+<img src="https://user-images.githubusercontent.com/77331459/190469737-59fec3b5-10c2-4970-a0c0-c047aa452732.png" width="500" height="300"><br>
 #### - Step 1 : username to using for git commit<br>
 ####    git config --global user.name "your_name"<br>
 #### - Step 2 : email to use for git commit<br>
 ####    git config --global user.email "your_email"<br>
-![KakaoTalk_20220915_230232564](https://user-images.githubusercontent.com/77331459/190469738-387c7a92-f777-4a4e-8b82-d7810eed191a.png)<br>
+<img src="https://user-images.githubusercontent.com/77331459/190469738-387c7a92-f777-4a4e-8b82-d7810eed191a.png" width="500" height="150"><br>
 #### - Step 3 : git config --list<br>
-![KakaoTalk_20220915_230313148](https://user-images.githubusercontent.com/77331459/190469739-55880305-235a-4434-8d44-f4d4508fd50e.png)<br>
+<img src="https://user-images.githubusercontent.com/77331459/190469739-55880305-235a-4434-8d44-f4d4508fd50e.png" width="500" height="300"><br>
 ####    알 수 없는 어려운 말들이 나오지만 user.email, user.name 부분만 정상적으로 되었는지 확인<br>
 #### config end<br>
 
@@ -53,24 +51,24 @@
 
 #### visual studio code terminal click<br>
 ####    git init -> 초기화(!!맨처음!! 프로젝트를 올릴 때)<br>
-![KakaoTalk_20220915_231529633](https://user-images.githubusercontent.com/77331459/190469702-7dc25193-b05d-4dbb-903b-51d9ae2e5c0b.png)<br>
+<img src="https://user-images.githubusercontent.com/77331459/190469702-7dc25193-b05d-4dbb-903b-51d9ae2e5c0b.png" width="1000" height="100"><br>
 ####    git add . -> .은 전부라는 의미 <br>
 ####    git add gitTest.c -> 선택해서 add하는 경우<br>
 
 ####    git status (보여주기용)<br>
-![KakaoTalk_20220915_231724772](https://user-images.githubusercontent.com/77331459/190469705-4188edcf-a1c9-4a79-9e13-54caf580629a.png)<br>
+<img src="https://user-images.githubusercontent.com/77331459/190469705-4188edcf-a1c9-4a79-9e13-54caf580629a.png" width="300" height="200"><br>
 ####    git commit -m "history name"<br>
 #### 수정사항 -> 마지막수정사항 -> 진짜마지막수정사항<br>
-![KakaoTalk_20220915_231845466](https://user-images.githubusercontent.com/77331459/190469707-801dff26-a292-42b7-b01e-bca58c5260db.png)<br>
+<img src="https://user-images.githubusercontent.com/77331459/190469707-801dff26-a292-42b7-b01e-bca58c5260db.png" width="300" height="150"><br>
 #### history를 github에 보내야 하는데 연결고리가 없음<br>
 ####    git remote add origin git@github.com:dotdotot/git.git<br>
 ####    git remote -v<br>
-![KakaoTalk_20220915_232007016](https://user-images.githubusercontent.com/77331459/190469710-bea587ce-3c05-4431-8a55-8b766cb935fd.png)<br>
+<img src="https://user-images.githubusercontent.com/77331459/190469710-bea587ce-3c05-4431-8a55-8b766cb935fd.png" width="300" height="150"><br>
 
 ####    git push origin main<br>
-![KakaoTalk_20220915_232030908](https://user-images.githubusercontent.com/77331459/190469713-eee12472-0e10-4f27-8be3-3189997ffe0e.png)
+<img src="https://user-images.githubusercontent.com/77331459/190469713-eee12472-0e10-4f27-8be3-3189997ffe0e.png" width="300" height="150"><br>
 # 7. code update
-![KakaoTalk_20220915_234011337](https://user-images.githubusercontent.com/77331459/190469719-a876ac06-ef6a-428c-ae10-d54858d72ef2.png)
+<img src="https://user-images.githubusercontent.com/77331459/190469719-a876ac06-ef6a-428c-ae10-d54858d72ef2.png" width="300" height="100"><br>
 ---------------
 #### git init은 필요하지 않다.<br>
 #### (처음에 한번 했기에 추가하는 작업은 필요없다.) <br>
