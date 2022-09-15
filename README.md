@@ -18,7 +18,7 @@
 
 # 3. new button click
 ---------------
-<img src="https://user-images.githubusercontent.com/77331459/190469729-6854ea9c-1159-417d-84b0-c1dc713c41de.png" width="100%" height="100%">
+<img src="https://user-images.githubusercontent.com/77331459/190469729-6854ea9c-1159-417d-84b0-c1dc713c41de.png" width="500" height="500">
 <!-- ![KakaoTalk_20220915_225616387](https://user-images.githubusercontent.com/77331459/190469729-6854ea9c-1159-417d-84b0-c1dc713c41de.png)<br> -->
 #### 프로젝트 이름<br>
 ####    - public / pricate<br>
