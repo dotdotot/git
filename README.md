@@ -81,63 +81,63 @@
 
 # 8. git pull
 ---------------
-!!(권한주는거 잊어먹지말기)!!
-회사에 신입이 들어와서 회사에서 기존에 사용하고있던 코드를 모두 pull해야 합니다.
-회사에서 배포한 github 주소로 접속해서 git주소를 복사
+### !!(권한주는거 잊어먹지말기)!!
+### 회사에 신입이 들어와서 회사에서 기존에 사용하고있던 코드를 모두 pull해야 합니다.
+### 회사에서 배포한 github 주소로 접속해서 git주소를 복사
 ![KakaoTalk_20220916_000758257](https://user-images.githubusercontent.com/77331459/190469723-1e00355e-8329-4244-a8cd-d7ed054610b6.png)<br>
 
-git clone https://github.com/dotdotot/git.git
-git clone https://github.com/dotdotot/git.git freshmen
-freshman 폴더 이름을 써주지 않으면 자동으로 프로젝트 이름의 폴더로 들어간다.
+### git clone https://github.com/dotdotot/git.git
+### git clone https://github.com/dotdotot/git.git freshmen
+### freshman 폴더 이름을 써주지 않으면 자동으로 프로젝트 이름의 폴더로 들어간다.
 
-github에 들어있는 파일들이 모두 옮겨진 모습
+### github에 들어있는 파일들이 모두 옮겨진 모습
 ![KakaoTalk_20220916_023033482](https://user-images.githubusercontent.com/77331459/190471827-9a85e5a1-6f95-41a1-9d44-736cc23815e0.png)<br>
 
-상사가 신입에게 어떠한 작업을 요구해서 작업을 진행
-작업을 완료했으면 기존 소스코드와 합쳐야한다.
-git add .
-git commit -m "freshmen commit"
-!!git push origin main!!을 하면 정말 욕을 먹는다.
-왜냐 main에 있는 것들은 회사의 최종 결과물 신입이 무슨 권리로 본인이 작업한
-소스코드를 어떻게 올림?(에러가 엄청 많음)
+### 상사가 신입에게 어떠한 작업을 요구해서 작업을 진행
+### 작업을 완료했으면 기존 소스코드와 합쳐야한다.
+### git add .
+### git commit -m "freshmen commit"
+### !!git push origin main!!을 하면 정말 욕을 먹는다.
+### 왜냐 main에 있는 것들은 회사의 최종 결과물 신입이 무슨 권리로 본인이 작업한
+### 소스코드를 어떻게 올림?(에러가 엄청 많음)
 ![KakaoTalk_20220916_023033683](https://user-images.githubusercontent.com/77331459/190471834-0d9564b5-63f3-4ce1-be02-549d1a5e7f97.png)<br>
 
 
-신입사원은 메인이라는 최종 브렌치에 넣지 못하고 
-신입사원을 위한 새로운 공간을 만들어야한다.
-git checkout -b freshmen
-(main에서 freshmen으로 권한이 바뀐다)
-해당 공간을 아무리 망쳐도 최종 프로젝트에는 어떠한 영향도 미치지 않음
+### 신입사원은 메인이라는 최종 브렌치에 넣지 못하고 
+### 신입사원을 위한 새로운 공간을 만들어야한다.
+### git checkout -b freshmen
+### (main에서 freshmen으로 권한이 바뀐다)
+### 해당 공간을 아무리 망쳐도 최종 프로젝트에는 어떠한 영향도 미치지 않음
 
-git push origin freshmen
+### git push origin freshmen
 ![KakaoTalk_20220916_023033787](https://user-images.githubusercontent.com/77331459/190471836-857260a6-51fe-45d4-913b-be6326544b7e.png)<br>
 
-브런치가 새로 생긴걸 확인가능
+### 브런치가 새로 생긴걸 확인가능
 ![KakaoTalk_20220916_011150601](https://user-images.githubusercontent.com/77331459/190469727-0e85b0aa-c829-48b7-aa9d-d2551560f4c9.png)<br>
 
-신입 사원이 github 웹 사이트로 들어가보면 못보면 새로운게 발견
-freshmen이라는 사람이 소스코드를 freshmen에 올렸다는 의미
+### 신입 사원이 github 웹 사이트로 들어가보면 못보면 새로운게 발견
+### freshmen이라는 사람이 소스코드를 freshmen에 올렸다는 의미
 ![KakaoTalk_20220916_023033595](https://user-images.githubusercontent.com/77331459/190471833-2ada8482-c6fe-4350-8981-4c0886125e38.png)<br>
 
-그러면 full requests 공간에 freshmen이 수정한 내용이 올라옴.
-즉, 최종 프로젝트(main)에 해당 내용을 반영시킬 수 있게 허락해달라는 의미
-상사가 소스코드를 보고 마음에 안들면 review changes를 요청해서 반려시킬 수 있다.
-괜찮다면 merge pull request를 눌러서 최종 프로젝트(main)에 반영시킬 수 있다.
-최종 프로젝트에 합쳐짐.
+### 그러면 full requests 공간에 freshmen이 수정한 내용이 올라옴.
+### 즉, 최종 프로젝트(main)에 해당 내용을 반영시킬 수 있게 허락해달라는 의미
+### 상사가 소스코드를 보고 마음에 안들면 review changes를 요청해서 반려시킬 수 있다.
+### 괜찮다면 merge pull request를 눌러서 최종 프로젝트(main)에 반영시킬 수 있다.
+### 최종 프로젝트에 합쳐짐.
 
-근데 상사도 본인이 개발을 하고있던 와중 신입이 만든 수정사항이 올라오고 최종 프로젝트에 합치면서
-main 코드가 새걸로 바뀌었다.
-main과 상사가 작성하던 소스코드랑은 완전히 버전이 다름
-이 상태에서 상사가 계속 소스코드를 개발을 하게되면 둘 사이에 버전이 완전히 달라지는일이 발생하기 때문에.
-최종 프로젝트에 무언가 반영이 된 후에는 모든 개발자가 동기화 시키는 작업을 해줘야한다.
+### 근데 상사도 본인이 개발을 하고있던 와중 신입이 만든 수정사항이 올라오고 최종 프로젝트에 합치면서
+### main 코드가 새걸로 바뀌었다.
+### main과 상사가 작성하던 소스코드랑은 완전히 버전이 다름
+### 이 상태에서 상사가 계속 소스코드를 개발을 하게되면 둘 사이에 버전이 완전히 달라지는일이 발생하기 때문에.
+### 최종 프로젝트에 무언가 반영이 된 후에는 모든 개발자가 동기화 시키는 작업을 해줘야한다.
 
-동기화
-git pull origin main
+### 동기화
+## git pull origin main
 
-이런식으로 동기화를 진행
-일이 이런식으로 진행이된다 모든 개발자들이 풀 푸쉬를 반복하게 되며
-이런식으로 회사는 일을 하게되고 소스코드도 공유할 수 있고 협업도 할 수 있고
-개발자로써 리모트 잡이 가능하게 되는 것 
+### 이런식으로 동기화를 진행
+### 일이 이런식으로 진행이된다 모든 개발자들이 풀 푸쉬를 반복하게 되며
+### 이런식으로 회사는 일을 하게되고 소스코드도 공유할 수 있고 협업도 할 수 있고
+### 개발자로써 리모트 잡이 가능하게 되는 것 
 
 
 # 9. branch 권한
